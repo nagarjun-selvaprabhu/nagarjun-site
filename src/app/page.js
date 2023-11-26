@@ -1,10 +1,12 @@
+import Footer from '@/components/Footer/Footer.js'
 import About from '../components/About/About.js'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24"> 
-    <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
+    <main className="flex justify-center w-full min-h-screen p-24 font-mono text-sm"> 
+    <div className="z-10 max-w-5xl">
       <About></About>
+      <Footer></Footer>
     </div>
     </main>
   )

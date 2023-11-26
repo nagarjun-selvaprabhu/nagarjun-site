@@ -4,7 +4,7 @@ import Img from "../../../public/viet.jpeg";
 
 const about = () => {
     return (
-        <div>
+        <div className="">
             <h1 className="flex justify-center">Nagarjun Selvaprabhu</h1>
             <Image
                 src={Img}
